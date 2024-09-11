@@ -40,7 +40,7 @@ credentials.json
 *.tax2010
 *.vcf
 *.xml
-*.xlsx
+# *.xlsx
 *.xlsm
 *.xls
 
