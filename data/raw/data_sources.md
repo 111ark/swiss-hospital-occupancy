@@ -4,3 +4,4 @@
 | ----------------------- | -------------------------------- | ------------------------ |-------------------------------------------------------------- | ----------- |
 | kzp22_data.xlsx         | Metrics for Swiss hospitals      | Bundesamt für Gesundheit | https://spitalstatistik.bagapps.ch/data/download/kzp22_data.xlsx?v=1710771311          | 11-09-2024 |
 | kzp22_description_de.pdf| Descriptions for kzp22_data.xlsx | Bundesamt für Gesundheit | https://spitalstatistik.bagapps.ch/data/download/kzp22_description_de.pdf?v=1710771311 | 11-09-2024 |
+| district_population.xlsx | Population of CH districts and cantons from 1980 to 2023 | https://www.citypopulation.de/en/switzerland/admin/ | 11.09.2024 |
