@@ -9,8 +9,18 @@ import json
 pop_df = pd.read_csv('../data/processed/district_pop.csv')
 # district geodata
 
-with open('../data/raw/ch-districts.geojson') as f:
+with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as f:
 	geodata = json.load(f)
+
+
+
+
+# with open('fcRailroad.geojson') as json_file:
+#     fcRailroad = json.load(json_file)
+
+
+
+gdf = gpd.GeoDataFrame.from_features(geojson)
 
 
 
@@ -26,9 +36,8 @@ fig = px.choropleth_mapbox(
 fig.update_layout(mapbox_style="carto-positron",
                   mapbox_zoom=6, mapbox_center = {"lon": 8.2328637, "lat": 46.7995666})
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+
 st.plotly_chart(fig)
-
-
 
 
 
