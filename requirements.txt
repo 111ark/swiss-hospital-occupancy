@@ -5,3 +5,5 @@ plotly==5.22.0
 nbformat==5.9.2
 scipy==1.13.1
 geopy==2.4.1
+jupyterlab==4.2.5
+notebook==7.2.2
