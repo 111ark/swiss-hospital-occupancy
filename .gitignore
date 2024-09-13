@@ -434,4 +434,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks,windows,linux,data,pycharm,visualstudiocode,dbeaver
+# End of https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks,windows,linux,data,pycharm,visualstudiocode,dbeavernotebooks/municipality_df.csv
+notebooks/Hopsital_bed_occupation_map.ipynb
