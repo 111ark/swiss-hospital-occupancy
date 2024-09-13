@@ -13,24 +13,31 @@ import json
 # }
 # df = pd.DataFrame(data)
 
-df = pd.read_csv('../data/processed/geojson_df_including_pops.csv', encoding='utf-8')
+# df = pd.read_csv('../data/processed/geojson_df_including_pops.csv', encoding='utf-8')
 
-with open('../data/raw/ch-districts.geojson') as f:
+import plotly.express as px
+import json
+
+# Load GeoJSON data
+with open('../data/raw/pop_cant.geojson') as f:
     geojson_data = json.load(f)
 
-# Create the choropleth map using Plotly Express
-fig = px.choropleth_mapbox(df,
-                           geojson=geojson_data,
-                           locations='BEZIRKSNUM', # this must match featureidkey
-                           featureidkey="properties.BEZIRKSNUM",  # This must match the property in your GeoJSON
-                           color='EINWOHNERZ',
-                           mapbox_style="carto-positron",
-                           center={"lat": 47.0, "lon": 8.0},  # Switzerland coordinates
-                           zoom=7)
-
-fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+# Create a Plotly map
+fig = px.choropleth_mapbox(
+    geojson=geojson_data,
+    locations=[feature['properties']['NAME_1'] for feature in geojson_data['features']],  # Extract place names
+    color=[feature['properties']['POPULATION'] for feature in geojson_data['features']],  # Extract population values
+    geojson=geojson_data,
+    featureidkey="properties.NAME_1",  # Property name in GeoJSON
+    color_continuous_scale="Viridis",  # Color scale
+    mapbox_style="carto-positron",
+    center={"lat": 47.0, "lon": 8.0},  # Center map on Switzerland (adjust as necessary)
+    zoom=7,
+    title="Population by Canton"
+)
 
 fig.show()
+
 
 
 # import json
@@ -66,3 +73,6 @@ fig.show()
 
 # # Usage
 # save_bezirksnum_name_to_csv('../data/raw/ch-districts.geojson', 'bezirksnum_name_mapping.csv')
+
+
+
