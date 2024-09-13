@@ -6,14 +6,14 @@ import json
 # Streamlit caching to load data efficiently
 @st.cache_data
 def load_geojson():
-    with open('../data/raw/gemeinden_wus.geojson', 'r') as f:
+    with open('./data/raw/gemeinden_wus.geojson', 'r') as f:
         return json.load(f)
 
 @st.cache_data
 def load_csv_data():
-    d_pop = pd.read_csv('../data/processed/pops_left.csv', encoding='utf-8')
-    d_coord = pd.read_csv('../data/processed/pops_left_coords.csv', encoding='utf-8')
-    h_loc = pd.read_csv('../data/processed/hospitals_collated_reduced.csv', encoding='utf-8')
+    d_pop = pd.read_csv('./data/processed/pops_left.csv', encoding='utf-8')
+    d_coord = pd.read_csv('./data/processed/pops_left_coords.csv', encoding='utf-8')
+    h_loc = pd.read_csv('./data/processed/hospitals_collated_reduced.csv', encoding='utf-8')
     return d_pop, d_coord, h_loc
 
 # Load data
