@@ -6,7 +6,7 @@
 <!-- ![alternative text](reports/img/pic01.jpg) -->
 
 
-#### -- Project Status: [Active, On-Hold, Completed]
+<!-- #### -- Project Status: [Active, On-Hold, Completed] -->
 
 ## Project Intro/Objective
 The purpose of this project is to visualize and analyze demand and supply of general hospital care in Switzerland. The analysis is based on distance to nearest hospital by district. Long-term goal for this project is to optimize hospital service availability in Switzerland and account for the future increase in demand.
@@ -57,13 +57,12 @@ create another "setup.md" file and link to it here*
 * [Blog Post](link)
  -->
 
-## Contributing Members
-** Martin Itten 
-** Kristjan Mark
+### Contributing Members
+* Martin Itten 
+* Kristjan Mark
+ - [Martin Itten](https://github.com/martin-itten])
+ - [Kristjan Mark](https://github.com/111ark])
 
-<!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])** 
+<!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**  -->
 
 #### Other Members:
-
- - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle]) -->
