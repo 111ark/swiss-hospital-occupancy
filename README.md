@@ -28,6 +28,12 @@ The purpose of this project is to visualize and analyze demand and supply of gen
 * Pandas
 * Matplotlib
 * Plotly
+
+
+### Contributing Members
+ - [Martin Itten](https://github.com/martin-itten])
+ - [Kristjan Mark](https://github.com/111ark])
+ 
 <!-- 
 ## Project Description
 (Provide more detailed overview of the project.
@@ -57,9 +63,6 @@ create another "setup.md" file and link to it here*
 * [Blog Post](link)
  -->
 
-### Contributing Members
- - [Martin Itten](https://github.com/martin-itten])
- - [Kristjan Mark](https://github.com/111ark])
 
 <!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**  -->
 
