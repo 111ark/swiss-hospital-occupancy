@@ -2,7 +2,7 @@
 
 <!-- example image: -->
 
-
+Visit [this link](https://hoccupancy.streamlit.app) for the dashboard.
 <!-- ![alternative text](reports/img/pic01.jpg) -->
 
 
