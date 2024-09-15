@@ -58,11 +58,8 @@ create another "setup.md" file and link to it here*
  -->
 
 ### Contributing Members
-* Martin Itten 
-* Kristjan Mark
  - [Martin Itten](https://github.com/martin-itten])
  - [Kristjan Mark](https://github.com/111ark])
 
 <!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**  -->
 
-#### Other Members:
