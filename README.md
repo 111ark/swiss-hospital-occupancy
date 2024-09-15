@@ -1,46 +1,41 @@
-# Project Name
+# Optimizing Hospital Service Availability in Switzerland by District
 
-example image:
+<!-- example image: -->
 
 
-![alternative text](reports/img/pic01.jpg)
+<!-- ![alternative text](reports/img/pic01.jpg) -->
 
 
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to visualize and analyze demand and supply of general hospital care in Switzerland. The analysis is based on distance to nearest hospital by district. Long-term goal for this project is to optimize hospital service availability in Switzerland and account for the future increase in demand.
 
-### Partner
+<!-- ### Partner
 * [Name of Partner organization/Government department etc..]
 * Website for partner
 * Partner contact: [Name of Contact]
 * If you do not have a partner leave this section out
-
+ -->
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
 
 ### Technologies
-* R
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc.
-
+* Jupyter
+* Pandas
+* Matplotlib
+* Plotly
+<!-- 
 ## Project Description
 (Provide more detailed overview of the project.
 Talk a bit about your data sources and what questions and hypothesis you are exploring.
 What specific data analysis/visualization and modelling work are you using to solve the
 problem? What blockers and challenges are you facing?
 Feel free to number or bullet point things here)
-
+ --><!-- 
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
@@ -60,13 +55,15 @@ create another "setup.md" file and link to it here*
 * [Notebook/Markdown/Slide Deck Title](link)
 * [Notebook/Markdown/Slide DeckTitle](link)
 * [Blog Post](link)
-
+ -->
 
 ## Contributing Members
+** Martin Itten 
+** Kristjan Mark
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**
+<!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])** -->
 
-#### Other Members:
+#### Other <!-- Members:
 
  - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
+ - [Full Name](https://github.com/[github handle]) -->
