@@ -61,9 +61,9 @@ create another "setup.md" file and link to it here*
 ** Martin Itten 
 ** Kristjan Mark
 
-<!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])** -->
+<!-- **Team Leads (Contacts) : [Full Name](https://github.com/[github handle])** 
 
-#### Other <!-- Members:
+#### Other Members:
 
  - [Full Name](https://github.com/[github handle])
  - [Full Name](https://github.com/[github handle]) -->
