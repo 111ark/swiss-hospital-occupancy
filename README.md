@@ -31,9 +31,9 @@ The purpose of this project is to visualize and analyze demand and supply of gen
 
 
 ### Contributing Members
- - [Martin Itten](https://github.com/martin-itten])
- - [Kristjan Mark](https://github.com/111ark])
- 
+ - [Martin Itten](https://github.com/martin-itten)])
+ - [Kristjan Mark](https://github.com/111ark])]
+
 <!-- 
 ## Project Description
 (Provide more detailed overview of the project.
