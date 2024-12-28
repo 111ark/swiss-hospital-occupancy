@@ -1,8 +1,7 @@
 # Optimizing Hospital Service Availability in Switzerland by District
 
 <!-- example image: -->
-
-!(https://111ark.ee/wp-content/uploads/2024/12/map.png)
+![Map preview]([http://url/to/img.png](https://111ark.ee/wp-content/uploads/2024/12/map.png))
 
 Visit [this link](https://hoccupancy.streamlit.app) for the dashboard.
 <!-- ![alternative text](reports/img/pic01.jpg) -->
