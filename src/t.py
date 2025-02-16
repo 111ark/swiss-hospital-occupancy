@@ -35,18 +35,18 @@ fig = px.choropleth_mapbox(
     # hover_data={'B19BTOT': True, 'quant95': False},  # Show original values in the hover box
 )
 
-# Create scatter mapbox trace for hospitals
-scatter_trace = px.scatter_mapbox(
-    h_loc,
-    lat="latitude",
-    lon="longitude",
-    hover_name="Inst",
-    size_max=20,
-    color_discrete_sequence=["cyan"]
-).data[0]  # Extract the trace object
+# # Create scatter mapbox trace for hospitals
+# scatter_trace = px.scatter_mapbox(
+#     h_loc,
+#     lat="latitude",
+#     lon="longitude",
+#     hover_name="Inst",
+#     size_max=20,
+#     color_discrete_sequence=["cyan"]
+# ).data[0]  # Extract the trace object
 
-# Add the scatter trace to the figure
-fig.add_trace(scatter_trace)
+# # Add the scatter trace to the figure
+# fig.add_trace(scatter_trace)
 
 # Update the layout
 fig.update_layout(
